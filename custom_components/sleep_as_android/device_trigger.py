@@ -45,7 +45,8 @@ TRIGGERS = [
     "sound_event_talk",
     "sound_event_cough",
     "sound_event_baby",
-    "sound_event_laugh"
+    "sound_event_laugh",
+    "before_smart_period"
 ]
 
 TRIGGER_SCHEMA = HA_TRIGGER_BASE_SCHEMA.extend(
